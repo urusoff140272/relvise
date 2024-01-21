@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(127, 127, 193);
+    font-family: "Montserrat", Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: $color-textMain;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1046px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: content-box;
+}
