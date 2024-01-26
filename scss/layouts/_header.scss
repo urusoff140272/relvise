@@ -10,6 +10,9 @@
     min-height: 104px;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 479px){
+        min-height: 70px;
+    }
 }
 
 .header__logo {
@@ -17,6 +20,11 @@
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0.1px;
+    text-shadow:
+    1px 0 2px $color-background,
+    -1px 0 2px $color-background,
+    0 1px 2px $color-background,
+    0 -1px 2px $color-background;
 }
 
 .header__menu {
@@ -28,6 +36,10 @@
 
     @media screen and (max-width: 768px){
         margin-left: 40px;
+    }
+
+    @media screen and (max-width: 479px){
+        margin-left: 20px;
     }
 }
 
@@ -48,6 +60,15 @@
 .menu__link {
     color: $color-textDark;
     font-weight: 600;
-    line-height: 171%;
+    // line-height: 171%; (line-height / font-size * 100%)
+    line-height: calc(24 / 14 * 100%);
     letter-spacing: 0.2px;
+    text-shadow:
+    1px 0 2px $color-background,
+    -1px 0 2px $color-background,
+    0 1px 2px $color-background,
+    0 -1px 2px $color-background;
+    @media screen and (max-width: 479px){
+        font-size: 18px;
+    }
 }
