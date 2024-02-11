@@ -1,0 +1,136 @@
+.whoweare {
+    padding: 100px 0 136px 0;
+    background: $color-textLight;
+    @media (max-width: 950px) {
+        padding: 50px 0 50px 0;
+    }
+}
+
+.whoweare__header {
+    margin-bottom: 100px;
+    @media (max-width: 950px) {
+        margin-bottom: 30px;
+    }
+}
+
+.header-block__title_accent {
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+.whoweare__body {
+    display: flex;
+    align-items: flex-start;
+    @media (max-width: 950px) {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+}
+
+.whoweare__video {
+    flex: 0 0 57%;
+    position: relative;
+    padding-bottom: calc(442 / 1046 * 100%);
+    iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+    @media (max-width: 950px) {
+        &:not(:last-child) {
+            margin-top: 50px;
+        }
+        padding-bottom: 56.25%;
+    }
+    @media (max-width: 767px) {
+        &:not(:last-child) {
+            margin-top: 30px;
+        }
+    }
+}
+
+.whoweare__content {
+    flex: 1 1 auto;
+    padding: 20px 0 0 120px;
+
+    @media (max-width: 1068px) {
+        padding: 0 0 0 50px;
+    }
+
+    @media (max-width: 950px) {
+        padding: 0;
+    }
+}
+
+.whoweare__top {
+    &:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    @media (max-width: 1068px) {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+    @media (max-width: 950px) {
+        text-align: center;
+    }
+}
+
+.whoweare__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: calc(57 / 40 * 100%); /* 142.5% */
+    letter-spacing: 0.2px;
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    @media (max-width: 950px) {
+        font-size: 24px;
+    }
+}
+
+.whoweare__text {
+    color: $color-textDark;
+    line-height: calc(20 / 14 * 100%); /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+.whoweare__card {
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+
+.card-whoweare {
+    display: flex;
+}
+
+.card-whoweare__icon {
+    flex: 0 0 32px;
+}
+
+.card-whoweare__body {
+    flex: 1 1 auto;
+    padding-left: 20px;
+    :not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
+
+.card-whoweare__title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: calc(24 / 16 * 100%); /* 150% */
+    letter-spacing: 0.1px;
+}
+
+.card-whoweare__text {
+    color: $color-textDark;
+    font-weight: 600;
+    line-height: calc(24 / 14 * 100%); /* 171.429% */
+    letter-spacing: 0.2px;
+}
