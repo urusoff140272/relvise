@@ -1,9 +1,8 @@
-.main__clients {
-}
 .clients {
     padding: 40px 0;
-}
-.clients__container {
+        @media (max-width: 767px) {
+            padding: 20px 0;
+    }
 }
 
 .clients__items {
