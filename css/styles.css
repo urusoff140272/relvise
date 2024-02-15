@@ -909,4 +909,64 @@ body {
 .card-getintouch__button:hover {
   background: #ff7b47;
   color: #ffffff;
+}
+
+.contact {
+  padding: 40px 0;
+  background: #ffffff;
+}
+
+@media (min-width: 767px) {
+  .contact__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.contact__contennt {
+  padding-bottom: 20px;
+}
+@media (min-width: 767px) {
+  .contact__contennt {
+    padding: 0;
+  }
+}
+
+.contact__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 133.3333333333%;
+  letter-spacing: 0.1px;
+}
+.contact__title:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contact__text {
+  line-height: 142.8571428571%;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.contact__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 58px;
+  padding: 5px 40px;
+  margin: 0 30px;
+  border-radius: 5px;
+  background: #ff7b47;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  transition: all 0.3s;
+}
+.contact__button:hover {
+  background: #ffffff;
+  color: #ff7b47;
+  border: 1px solid #ff7b47;
 }/*# sourceMappingURL=styles.css.map */
