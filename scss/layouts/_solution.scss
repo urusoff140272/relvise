@@ -1,4 +1,4 @@
-.main__solution{
+.main__solution {
     position: relative;
 }
 
@@ -60,9 +60,9 @@
         -1px 0 2px $color-background,
         0 1px 2px $color-background,
         0 -1px 2px $color-background;
-        @media (max-width: 425px) {
-            flex: 1 1 100%;
-        }
+    @media (max-width: 425px) {
+        flex: 1 1 100%;
+    }
 }
 
 .solution__button_accent {
@@ -70,6 +70,7 @@
     background-color: $color-accent;
     color: $color-textLight;
     text-shadow: none;
+
 }
 
 .solution__image {

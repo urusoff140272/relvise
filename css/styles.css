@@ -107,6 +107,9 @@ body {
   left: 0;
   -o-object-fit: cover;
      object-fit: cover;
+  font-weight: 600;
+  line-height: 171.4285714286%;
+  letter-spacing: 0.2px;
 }
 
 .header-block {
@@ -209,6 +212,9 @@ body {
   .menu__link {
     font-size: 18px;
   }
+}
+.menu__link:hover {
+  text-decoration: underline;
 }
 
 .main__solution {
@@ -729,7 +735,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 30px 50px;
     margin: 0 30px;
   }
 }
@@ -793,4 +799,114 @@ body {
   .substribe__button {
     padding: 0 10px;
   }
+}
+
+.main__getintouch {
+  margin-bottom: 68px;
+}
+@media (max-width: 992px) {
+  .main__getintouch {
+    margin-bottom: 0;
+  }
+}
+
+.getintouch {
+  padding: 80px 0;
+}
+@media (max-width: 992px) {
+  .getintouch {
+    padding: 50px 0;
+  }
+}
+
+.getintouch__header {
+  margin-bottom: 80px;
+}
+@media (max-width: 992px) {
+  .getintouch__header {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .getintouch__header {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .getintouch__cards {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.getintouch__card {
+  flex: 0 1 33.33%;
+}
+
+.card-getintouch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  padding: 50px 40px;
+}
+.card-getintouch > *:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.card-getintouch_active {
+  padding: 80px 40px;
+  background: #252b42;
+  color: #ffffff;
+}
+.card-getintouch_active .card-getintouch__button {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+@media (max-width: 992px) {
+  .card-getintouch_active {
+    padding: 50px 40px;
+  }
+}
+
+.card-getintouch__emails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-getintouch__email {
+  font-weight: 600;
+  line-height: 171.4285714286%;
+  letter-spacing: 0.2px;
+}
+.card-getintouch__email:hover {
+  text-decoration: underline;
+}
+
+.card-getintouch__lable {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+}
+
+.card-getintouch__button {
+  border: 1px solid #ff7b47;
+  border-radius: 5px;
+  padding: 5px 20px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ff7b47;
+  transition: 0.3s;
+}
+.card-getintouch__button:hover {
+  background: #ff7b47;
+  color: #ffffff;
 }/*# sourceMappingURL=styles.css.map */

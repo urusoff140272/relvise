@@ -18,14 +18,14 @@
     padding: 20px 20px;
     background: $color-backgroundDark;
     border-radius: 2px;
-    @media (min-width: 1070px) {
-    }
+    // @media (min-width: 1070px) {
+    // }
 
     @media (min-width: 810px) {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 50px;
+        padding: 30px 50px;
         margin: 0 30px;
     }
 }
