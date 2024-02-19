@@ -274,12 +274,19 @@ body {
   font-weight: 700;
   line-height: 200%; /* 200% */
   letter-spacing: 0.2px;
+  transition: 0.3s;
   text-shadow: 1px 0 2px #fafafa, -1px 0 2px #fafafa, 0 1px 2px #fafafa, 0 -1px 2px #fafafa;
 }
 @media (max-width: 425px) {
   .solution__button {
     flex: 1 1 100%;
   }
+}
+.solution__button:hover {
+  background-color: #0d5c63;
+  border-color: #0d5c63;
+  color: #ffffff;
+  text-shadow: none;
 }
 
 .solution__button_accent {
@@ -794,11 +801,15 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  transition: 0.3s;
 }
 @media (max-width: 510px) {
   .substribe__button {
     padding: 0 10px;
   }
+}
+.substribe__button:hover {
+  background: #0d5c63;
 }
 
 .main__getintouch {
@@ -969,4 +980,106 @@ body {
   background: #ffffff;
   color: #ff7b47;
   border: 1px solid #ff7b47;
+}
+
+.footer__top {
+  padding: 30px 0;
+  background: #17213C;
+  color: #ffffff;
+}
+
+.footer__body {
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__column {
+  padding: 20px 15px;
+  flex: 0 1 16.667%;
+}
+.footer__column:last-child {
+  flex: 0 1 33.334%;
+}
+@media (max-width: 1055px) {
+  .footer__column {
+    flex: 0 1 25%;
+  }
+  .footer__column:last-child {
+    flex: 0 1 100%;
+  }
+}
+@media (max-width: 767px) {
+  .footer__column {
+    flex: 0 1 50%;
+  }
+}
+
+.card-footer__title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
+}
+
+.card-footer__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.card-footer__link {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 171.4285714286%;
+  letter-spacing: 0.2px;
+}
+.card-footer__link:hover {
+  text-decoration: underline;
+}
+
+.card-footer__contact {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-height: 30px;
+}
+
+.footer__bottom {
+  padding: 25px 0;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .footer__container {
+    flex-direction: column;
+  }
+}
+
+.footer__copy {
+  color: #737373;
+  font-weight: 600;
+  line-height: 171.4285714286%;
+  letter-spacing: 0.2px;
+}
+@media (max-width: 767px) {
+  .footer__copy {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+.social:not(:last-child) {
+  margin-right: 20px;
+}
+
+.sociaj__item:not(:last-child) {
+  margin-right: 20px;
 }/*# sourceMappingURL=styles.css.map */

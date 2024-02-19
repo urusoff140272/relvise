@@ -55,6 +55,7 @@
     font-weight: 700;
     line-height: calc(28 / 14 * 100%); /* 200% */
     letter-spacing: 0.2px;
+    transition: 0.3s;
     text-shadow:
         1px 0 2px $color-background,
         -1px 0 2px $color-background,
@@ -63,6 +64,12 @@
     @media (max-width: 425px) {
         flex: 1 1 100%;
     }
+    &:hover{
+        background-color: $color-button;
+        border-color: $color-button;
+        color: $color-textLight;
+        text-shadow: none;
+    }
 }
 
 .solution__button_accent {
@@ -70,7 +77,6 @@
     background-color: $color-accent;
     color: $color-textLight;
     text-shadow: none;
-
 }
 
 .solution__image {
