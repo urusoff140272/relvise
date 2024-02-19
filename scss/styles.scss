@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+
+@import "./base/.normalize";
+@import "./base/constants";
+
+@import "./base/base";
+
+@import "./base/blocks";
+
+@import "./layouts/header";
+@import "./layouts/solution";
+@import "./layouts/services";
+@import "./layouts/advantages";
+@import "./layouts/practice";
+@import "./layouts/whoweare";
+@import "./layouts/clients";
+@import "./layouts/substribe";
+@import "./layouts/getintouch";
+@import "./layouts/contact";
+@import "./layouts/footer";

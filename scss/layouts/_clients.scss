@@ -1,0 +1,23 @@
+.clients {
+    padding: 40px 0;
+        @media (max-width: 767px) {
+            padding: 20px 0;
+    }
+}
+
+.clients__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -15px;
+}
+.clients__item {
+    flex: 0 1 16.667%;
+    text-align: center;
+    padding: 10px 15px;
+    min-width: 150px;
+    img{
+        max-width: 100%;
+    }
+}
